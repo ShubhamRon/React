@@ -4,22 +4,21 @@ body {
   color: white;
   padding: 0;
   margin: 0;
-  overflow: hidden;
 }
 
-/* This Onw For Link Router */
-nav>a, nav div > a {
+nav>a,
+nav div>a {
   color: white;
   text-decoration: none;
   padding: 1vh;
   font-size: 3vh;
 }
 
-nav{
+nav {
   display: flex;
   justify-content: space-between;
   text-align: center;
-  background-color: rgb(49, 82, 0);
+  background-color: rgb(2, 83, 66);
   padding: 2vh;
   margin: 0;
 }
@@ -30,7 +29,6 @@ nav{
   align-items: center;
   flex-direction: column;
   margin: 0;
-  height: 90vh;
   background-image: url("./ImageAsset/vansImage.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -45,7 +43,6 @@ nav{
 }
 
 .HomeButton button {
-  /* background-color: rgb(0, 100, 0); */
   border: none;
   border-radius: 0.5vh;
   padding: 3vh;
@@ -59,19 +56,62 @@ nav{
 
 }
 
-/* About Section Goes Here */
-.AboutContainer{
-  height: 90vh;
+.AboutContainer {
   background-image: url("./ImageAsset/vansAbout.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
-.AboutTextContainer{
+
+.AboutTextContainer {
   display: flex;
   justify-content: center;
   align-content: center;
   flex-direction: column;
   color: black;
   text-align: center;
+}
+
+.VansContainer {
+  font-size: 2vh;
+  margin: 2vh;
+  /* height: 53vh; */
+  border-radius: 1vh;
+  text-align: center;
+  background-color: #2d2d2d;
+  padding: 0 0 2vh 0;
+  box-shadow: 0 0 10px black;
+}
+
+.VansContainer img {
+  width: 25vw;
+}
+
+.VansOuterContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  /* width: 100vw; */
+}
+.VansContainer > a{
+  color: white;
+  text-decoration: none;
+}
+.btncolor{
+  background-color: transparent;
+  color: wheat;
+  padding: 2vh;
+  /* border: none; */
+  cursor: pointer;
+  border-radius: 1vh;
+}
+.DetailsContainer{
+  width: 80vw;
+}
+.ImgDetails{
+  /* width: 40vw; */
+}
+.Detailspage{
+  padding: 3vh;
 }
