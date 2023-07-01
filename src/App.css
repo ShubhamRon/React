@@ -1,6 +1,7 @@
 body {
   font-family: 'Poppins', sans-serif;
   background-color: rgb(61, 61, 61);
+  font-size: 2.5vh;
   color: white;
   padding: 0;
   margin: 0;
@@ -12,6 +13,14 @@ nav div>a {
   text-decoration: none;
   padding: 1vh;
   font-size: 3vh;
+}
+
+nav:hover>a {
+  text-decoration: underline;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 nav {
@@ -36,6 +45,7 @@ nav {
   font-size: 3vh;
   text-align: center;
   background-size: cover;
+  height: 79vh;
 }
 
 .Homecontainer h2 {
@@ -75,7 +85,7 @@ nav {
 .VansContainer {
   font-size: 2vh;
   margin: 2vh;
-  /* height: 53vh; */
+  height: 53vh;
   border-radius: 1vh;
   text-align: center;
   background-color: #2d2d2d;
@@ -92,26 +102,41 @@ nav {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  /* width: 100vw; */
 }
-.VansContainer > a{
+
+.VansContainer>a {
   color: white;
   text-decoration: none;
 }
-.btncolor{
+
+.btncolor {
   background-color: transparent;
   color: wheat;
   padding: 2vh;
-  /* border: none; */
   cursor: pointer;
   border-radius: 1vh;
 }
-.DetailsContainer{
+
+.DetailsContainer {
   width: 80vw;
 }
-.ImgDetails{
+
+.ImgDetails {
   /* width: 40vw; */
 }
-.Detailspage{
+
+.Detailspage {
   padding: 3vh;
+}
+
+.HostlayoutContainer>a {
+  color: white;
+  text-decoration: none;
+}
+.HostlayoutContainer{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  
 }
